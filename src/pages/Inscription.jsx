@@ -2,6 +2,7 @@ import { useState } from "react";
 import PhoneInput, { isValidPhoneNumber } from "react-phone-number-input";
 import "react-phone-number-input/style.css";
 import { supabase } from "../lib/supabase";
+import Header from "../components/Header";
 
 const initialForm = {
   nom: "",
@@ -132,14 +133,7 @@ export default function Inscription() {
 
     return (
       <>
-        <div className="top-bar" />
-        <header className="site-header">
-          <img src="/emblem.svg" alt="Emblème du Bénin" />
-          <div>
-            <h1>Ambassade du Bénin en Inde</h1>
-            <p>Enregistrement des étudiants béninois en Inde</p>
-          </div>
-        </header>
+        <Header />
         <div className="container">
           <div className="intro-box">
             <h2>Inscription enregistrée</h2>
@@ -161,14 +155,7 @@ export default function Inscription() {
 
   return (
     <>
-      <div className="top-bar" />
-      <header className="site-header">
-        <img src="/emblem.svg" alt="Emblème du Bénin" />
-        <div>
-          <h1>Ambassade du Bénin en Inde</h1>
-          <p>Enregistrement des étudiants béninois en Inde</p>
-        </div>
-      </header>
+      <Header />
 
       <div className="container">
         <div className="intro-box">

@@ -276,3 +276,56 @@ footer.site-footer {
 .admin-table tr:nth-child(even) {
   background: var(--paper-50);
 }
+header.site-header {
+  position: relative;
+}
+
+.site-nav {
+  margin-left: auto;
+}
+
+.site-nav a {
+  color: var(--benin-green);
+  font-size: 0.9rem;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.site-nav a:hover {
+  text-decoration: underline;
+}
+
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.contact-card {
+  background: white;
+  border: 1px solid var(--border-200);
+  border-radius: 8px;
+  padding: 16px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.contact-fonction {
+  margin: 2px 0 0;
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.contact-tel {
+  color: var(--benin-green);
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.contact-tel:hover {
+  text-decoration: underline;
+}
