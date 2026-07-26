@@ -1,10 +1,10 @@
 import Header from "../components/Header";
 
 const membres = [
-  { nom: "Jean-Marie ZINSOU", fonction: "Ambassadeur", telephone: "+91 92 11 68 64 90" },
-  { nom: "Adélaide ZINSOU", fonction: "Ambassadrice", telephone: "+91 84 48 59 68 63" },
-  { nom: "Armand HOUNTONDJI", fonction: "Ministre Conseiller", telephone: "+229 01 97 98 13 42" },
-  { nom: "Freud Ulrich KLISSOU", fonction: "Ministre Conseiller", telephone: "+91 92 66 14 22 78" },
+  { nom: "M. Jean-Marie ZINSOU", fonction: "Ambassadeur", telephone: "+91 92 11 68 64 90" },
+  { nom: "Mme Adélaide ZINSOU", fonction: "Ambassadrice", telephone: "+91 84 48 59 68 63" },
+  { nom: "M. Armand HOUNTONDJI", fonction: "Ministre Conseiller", telephone: "+229 01 97 98 13 42" },
+  { nom: "M. Freud Ulrich KLISSOU", fonction: "Ministre Conseiller", telephone: "+91 92 66 14 22 78" },
 ];
 
 function telHref(numero) {
