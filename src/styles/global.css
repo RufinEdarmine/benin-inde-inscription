@@ -329,3 +329,19 @@ header.site-header {
 .contact-tel:hover {
   text-decoration: underline;
 }
+.site-nav {
+  margin-left: auto;
+  display: flex;
+  gap: 20px;
+}
+
+.site-nav a {
+  color: var(--benin-green);
+  font-size: 0.9rem;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.site-nav a:hover {
+  text-decoration: underline;
+}

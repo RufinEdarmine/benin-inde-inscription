@@ -11,6 +11,7 @@ export default function Header() {
           <p>Enregistrement des étudiants béninois en Inde</p>
         </div>
         <nav className="site-nav">
+          <Link to="/">Accueil</Link>
           <Link to="/contact">Contact de l'ambassade</Link>
         </nav>
       </header>
