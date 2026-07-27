@@ -332,16 +332,19 @@ header.site-header {
 .site-nav {
   margin-left: auto;
   display: flex;
-  gap: 20px;
+  gap: 12px;
 }
 
 .site-nav a {
-  color: var(--benin-green);
-  font-size: 0.9rem;
+  background: var(--benin-green);
+  color: white;
   text-decoration: none;
   font-weight: 600;
+  font-size: 0.95rem;
+  padding: 10px 20px;
+  border-radius: 6px;
 }
 
 .site-nav a:hover {
-  text-decoration: underline;
+  opacity: 0.9;
 }
